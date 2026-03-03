@@ -1,0 +1,66 @@
+{
+  "best_model_name": "Logistic Regression",
+  "best_resample": "SMOTE",
+  "best_fs": "None",
+  "best_threshold": 0.25,
+  "best_params": {
+    "C": 10,
+    "penalty": "l1",
+    "solver": "saga"
+  },
+  "f2_score_test": 0.7568,
+  "recall_test": 0.8876,
+  "precision_test": 0.4761,
+  "feature_names": [
+    "tenure",
+    "MonthlyCharges",
+    "total_services",
+    "has_internet",
+    "Dependents_No",
+    "Dependents_Yes",
+    "OnlineSecurity_No",
+    "OnlineSecurity_No internet service",
+    "OnlineSecurity_Yes",
+    "OnlineBackup_No",
+    "OnlineBackup_No internet service",
+    "OnlineBackup_Yes",
+    "InternetService_DSL",
+    "InternetService_Fiber optic",
+    "InternetService_No",
+    "DeviceProtection_No",
+    "DeviceProtection_No internet service",
+    "DeviceProtection_Yes",
+    "TechSupport_No",
+    "TechSupport_No internet service",
+    "TechSupport_Yes",
+    "Contract_Month-to-month",
+    "Contract_One year",
+    "Contract_Two year",
+    "PaperlessBilling_No",
+    "PaperlessBilling_Yes",
+    "tenure_category_Long (25-48m)",
+    "tenure_category_Loyal (49-72m)",
+    "tenure_category_Medium (13-24m)",
+    "tenure_category_New (0-12m)",
+    "tenure_category_nan"
+  ],
+  "categorical_features": [
+    "Dependents",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "InternetService",
+    "DeviceProtection",
+    "TechSupport",
+    "Contract",
+    "PaperlessBilling",
+    "tenure_category"
+  ],
+  "numerical_robust": [
+    "tenure",
+    "MonthlyCharges"
+  ],
+  "numerical_minmax": [
+    "total_services",
+    "has_internet"
+  ]
+}
